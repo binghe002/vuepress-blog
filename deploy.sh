@@ -4,12 +4,12 @@
 set -e
 
 ## 更新文章
-#git add .
-#git commit -m '更新文章'
-#git push
+git add .
+git commit -m '更新文章'
+git push
 #
 ## 生成静态文件
-rm -rf .site
+rm -rf
 npm install
 npm run docs:build
 
