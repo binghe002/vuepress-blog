@@ -6,16 +6,16 @@ module.exports = [
         items: [
                 {
                     text: '基础知识',
-                    link:'/views/basis/git'
+                    link:'/md/views/basis/git'
                 },{
                     text: '高级进阶',
-                    link:'/views/advanced/jiaoshoujia-02'
+                    link:'/md/views/advanced/jiaoshoujia-02'
                 },{
                     text: 'Bug',
-                    link:'/views/Bug/bug'
+                    link:'/md/views/Bug/bug'
                 },{
                     text: '面试宝典',
-                    link:'/views/interview/interview-01'
+                    link:'/md/views/interview/interview-01'
                 },
             ]
     },
@@ -24,13 +24,13 @@ module.exports = [
         items: [
                 {
                     text: '基础组件',
-                    link:'/coms/basicsCom/pagination'
+                    link:'/md/coms/basicsCom/pagination'
                 },{
                     text: '业务组件',
-                    link:'/coms/professionCom/msg'
+                    link:'/md/coms/professionCom/msg'
                 },
             ]
     },
-    {text: '随笔', link: '/jottings/20200904',},
-    {text: '关于我', link: '/about/',},
+    {text: '随笔', link: '/md/jottings/20200904',},
+    {text: '关于我', link: '/md/about/',},
 ]
