@@ -9,6 +9,7 @@ git commit -m '更新文章'
 git push
 
 # 生成静态文件
+npm install
 npm run docs:build
 
 # 进入生成的文件夹
