@@ -28,7 +28,7 @@ module.exports = {
             "type": "text/javascript",
             "src": "/iconfont/iconfont.js"
         }],["script", {
-            "src": "https://cdn.jsdelivr.net/gh/MaLunan/live2d-widget@latest/autoload.js",
+            "src": "plugins/js/autoload.js",
         }],
     ],
     dest: './.site',
@@ -56,7 +56,7 @@ module.exports = {
     repoLabel: 'GitHub',
     // 以下为可选的编辑链接选项
     // 假如你的文档仓库和项目本身不在一个仓库：
-    docsRepo: 'binghe002/binghe002.github.io',
+    docsRepo: 'binghe002/vuepress-blog',
     // 假如文档不是放在仓库的根目录下：
     docsDir: 'docs',
     // 假如文档放在一个特定的分支下：
