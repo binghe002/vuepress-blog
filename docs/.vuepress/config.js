@@ -31,7 +31,7 @@ module.exports = {
             "src": "https://cdn.jsdelivr.net/gh/MaLunan/live2d-widget@latest/autoload.js",
         }],
     ],
-    dest: './site',
+    dest: './.site',
     // permalink: "/:year/:month/:day/:slug", //配置永久链接
     ga: '',
     evergreen: true,
