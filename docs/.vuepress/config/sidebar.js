@@ -7,40 +7,40 @@ module.exports = {
         {
             title: '基础知识',
             collapsable: true,
-            children: getChildren('./docs/md/views/basis/')
+            children: getChildren('/views/basis/')
         },
         {
             title: '高级进阶',
             collapsable: true,
-            children: getChildren('./docs/md/views/advanced/')
+            children: getChildren('/views/advanced/')
         }, 
         {
             title: 'Bug',
             collapsable: true,
-            children: getChildren('./docs/md/views/Bug/')
+            children: getChildren('/views/Bug/')
         },
         {
             title: '面试宝典',
             collapsable: true,
-            children:getChildren('./docs/md/views/interview/')
+            children:getChildren('/views/interview/')
         },
     ],
     '/coms/':[
         {
             title: '基础组件',
             collapsable: true,
-            children: getChildren('./docs/md/coms/basicsCom/')
+            children: getChildren('/coms/basicsCom/')
         },{
             title: '业务组件',
             collapsable: true,
-            children: getChildren('./docs/md/coms/professionCom/')
+            children: getChildren('/coms/professionCom/')
         },
     ],
     '/jottings/':[
         {
             title: '随笔',
             collapsable: true,
-            children: getChildren('./docs/md/jottings/')
+            children: getChildren('/jottings/')
         },
     ],
 
