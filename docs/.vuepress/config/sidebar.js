@@ -3,7 +3,7 @@
 const {getChildren} = require("vuepress-sidebar-atuo")
 
 module.exports = {
-    '/views/': [
+    '/md/views/': [
         {
             title: '基础知识',
             collapsable: true,
