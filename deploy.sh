@@ -5,7 +5,7 @@ set -e
 
 ### 更新文章
 git add .
-#git commit -m '更新文章'
+git commit -m '更新文章'
 git push
 #
 ## 生成静态文件
@@ -19,7 +19,7 @@ cd .site
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
-#git init
+git init
 git add -A
 git commit -m 'deploy'
 
