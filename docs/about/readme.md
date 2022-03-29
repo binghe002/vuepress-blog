@@ -1,6 +1,12 @@
 ---
+layout: post
+category: binghe-code-life
+tagline: by 冰河
+tag: [java,itstack-code-life]
+excerpt: 我是冰河。
+lock: need
 title: 关于我
-sidebar: false
+sidebar: true
 ---
 
 <p align="center"><img style="border-radius:41%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/icon.jpg')" alt="MaLUnan-个人博客|IT技术博客" width=260></p>

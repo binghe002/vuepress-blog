@@ -7,9 +7,8 @@ set -e
 git add .
 git commit -m '更新文章'
 git push
-#
+
 ## 生成静态文件
-rm -rf .site
 npm install
 npm run docs:build
 
