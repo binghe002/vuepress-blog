@@ -6,7 +6,7 @@ set -e
 # 更新文章
 git add .
 git commit -m '更新文章'
-git push origin dev
+git push
 
 # 生成静态文件
 npm run docs:build
@@ -22,7 +22,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f https://github.com/binghe002/binghe002.github.io.git master
+git push -f https://binghe002@github.com/binghe002/binghe002.github.io.git master
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
